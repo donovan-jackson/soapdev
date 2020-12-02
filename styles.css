@@ -29,17 +29,26 @@
 }
 
 #navigation-menu {
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: flex-end;
     padding-top: 5px;
     margin-bottom: 10px;
     border-bottom: 20px solid black;
 }
 
-#navigation-menu img {
-    height: 200px;
-}
-
 #main-menu > li {
     font-size: 1.2em;
+}
+
+#nav_logo {
+    width: 40px;
+}
+
+#nav_soap {
+    height: 100px;
 }
 
 .product-container {

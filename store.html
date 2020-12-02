@@ -13,7 +13,17 @@
     <body>
         <div id="body-content-container">
             <div id="navigation-menu">
-                <img src="assets/logo.png" alt="Logo">
+                <a href="index.html">
+                    <img src="assets/logo.png" alt="Logo" id="nav_logo">
+                </a>
+                <a href="index.html">
+                    <img src="assets/side_bar.png" alt="" id="nav_soap">
+                </a>
+                <a href="#">
+                    <svg width="2.5em" height="2.5em" viewBox="0 0 16 16" class="bi bi-cart3 text-dark" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm7 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"/>
+                      </svg>
+                </a>
             </div>
 
             <div id="store-product-wrapper">
@@ -22,45 +32,41 @@
                     <p>Almond</p>
                     <p>$15.00</p>
                     
-                    <button class="snipcart-add-item"   
+                    <button class="snipcart-add-item btn-dark"   
                     data-item-id="almond-bar"
                     data-item-price="15.00"
                     data-item-url="/store.html"
                     data-item-description="High-quality soap bar."
                     data-item-image="assets/almond.png"
-                    data-item-name="Almond Scent Soap Bar">Buy Now</button>
-                
-                    <a href="productpages/almond.html">More Info</a>
+                    data-item-name="Almond Scented Soap Bar">Add to Cart</button>
+                    <a href="productpages/almond.html" class="btn btn-secondary">More Info</a>
                 </div>
                 <div class="product-container">
                     <img src="assets/lavendersage.png" class="too-big" alt="">
-                    <p>Lavendar Sage</p>
+                    <p>Lavender Sage</p>
                     <p>$15.00</p>
                     
-                    <button class="snipcart-add-item"   
+                    <button class="snipcart-add-item btn-dark"   
                     data-item-id="lavender-sage-bar"
                     data-item-price="15.00"
                     data-item-url="/store.html"
                     data-item-description="High-quality soap bar."
                     data-item-image="assets/lavendersage.png"
-                    data-item-name="Lavender Sage Scent Soap Bar">Buy Now</button>
-                
-                    <a href="">More Info</a>
+                    data-item-name="Lavender Sage Scented Soap Bar">Add to Cart</button>
+                    <a href="productpages/lavendersage.html" class="btn btn-secondary">More Info</a>
                 </div>
                 <div class="product-container">
                     <img src="assets/bamboomint.png" class="too-big" alt="">
                     <p>Bamboo Mint</p>
                     <p>$15.00</p>
                     
-                    <button class="snipcart-add-item"   
+                    <button class="snipcart-add-item btn-dark"   
                     data-item-id="bamboo-mint-bar"
                     data-item-price="15.00"
                     data-item-url="/store.html"
                     data-item-description="High-quality soap bar."
-                    data-item-image="assets/bamboomint.png"
-                    data-item-name="Bamboo Mint Scent Soap Bar">Buy Now</button>
-                
-                    <a href="">More Info</a>
+                    data-item-name="Bamboo Mint Scent Soap Bar">Add to Cart</button>
+                    <a href="productpages/bamboomint.html" class="btn btn-secondary">More Info</a>
                 </div>
                 <div class="product-container">
                     <img src="assets/blackbamboo.png" alt="">
@@ -82,14 +88,13 @@
                     <p>Gardenia</p>
                     <p>$15.00</p>
                     
-                    <button class="snipcart-add-item"   
+                    <button class="snipcart-add-item btn-dark"   
                     data-item-id="gardenia-bar"
                     data-item-price="15.00"
                     data-item-url="/store.html"
                     data-item-description="High-quality soap bar."
                     data-item-image="assets/gardenia.png"
-                    data-item-name="Gardenia Scent Soap Bar">Buy Now</button>
-                
+                    data-item-name="Gardenia Scented Soap Bar">Add to Cart</button>
                     <a href="productpages/blackbamboo.html" class="btn btn-secondary">More Info</a>
                 </div>
                 <div class="product-container">
@@ -97,60 +102,56 @@
                     <p>Neroli</p>
                     <p>$15.00</p>
                     
-                    <button class="snipcart-add-item"   
+                    <button class="snipcart-add-item btn-dark"   
                     data-item-id="neroli-bar"
                     data-item-price="15.00"
                     data-item-url="/store.html"
                     data-item-description="High-quality soap bar."
                     data-item-image="assets/neroli.png"
-                    data-item-name="Neroli Soap Bar">Buy Now</button>
-                
-                    <a href="">More Info</a>
+                    data-item-name="Neroli Scented Soap Bar">Add to Cart</button>
+                    <a href="productpages/neroli.html" class="btn btn-secondary">More Info</a>
                 </div>
                 <div class="product-container">
                     <img src="assets/patchouliraspberry.png" alt="">
                     <p>Patchouli Raspberry</p>
                     <p>$15.00</p>
                     
-                    <button class="snipcart-add-item"   
+                    <button class="snipcart-add-item btn-dark"   
                     data-item-id="patchouli-raspberr-bar"
                     data-item-price="15.00"
                     data-item-url="/store.html"
                     data-item-description="High-quality soap bar."
                     data-item-image="assets/patchouliraspberry.png"
-                    data-item-name="Patchouli Raspberry Scent Soap Bar">Buy Now</button>
-                
-                    <a href="">More Info</a>
+                    data-item-name="Patchouli Raspberry Scented Soap Bar">Add to Cart</button>
+                    <a href="productpages/patcholiraspberry.html" class="btn btn-secondary">More Info</a>
                 </div>
                 <div class="product-container">
                     <img src="assets/shampoooval.png" alt="">
                     <p>Shampoo Oval</p>
                     <p>$15.00</p>
                     
-                    <button class="snipcart-add-item"   
+                    <button class="snipcart-add-item btn-dark"   
                     data-item-id="shampoo-oval"
                     data-item-price="17.00"
                     data-item-url="/store.html"
                     data-item-description="High-quality Shampoo Oval"
                     data-item-image="assets/shampoooval.png"
-                    data-item-name="Shampoo Oval">Buy Now</button>
-                
-                    <a href="">More Info</a>
+                    data-item-name="Shampoo Oval">Add to Cart</button>
+                    <a href="productpages/shampoooval.html" class="btn btn-secondary">More Info</a>
                 </div>
                 <div class="product-container">
                     <img src="assets/shampoosquare.png" alt="">
                     <p>Shampoo Square</p>
                     <p>$15.00</p>
                     
-                    <button class="snipcart-add-item"   
+                    <button class="snipcart-add-item btn-dark"   
                     data-item-id="shampoo-square"
                     data-item-price="17.00"
                     data-item-url="/store.html"
                     data-item-description="High-quality Sbampoo Square bar."
                     data-item-image="assets/shampoosquare.png"
-                    data-item-name="Shampoo Square">Buy Now</button>
-                
-                    <a href="">More Info</a>
+                    data-item-name="Square shampoo cube">Add to Cart</button>
+                    <a href="productpages/shampoosquare.html" class="btn btn-secondary">More Info</a>
                 </div>
             </div>
         </div>

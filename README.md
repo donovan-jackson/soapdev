@@ -1,2 +1,2 @@
 # soapdev
-Custom build online store for client who makes handmade soaps.
+Custom built online store for client who makes handmade soaps.

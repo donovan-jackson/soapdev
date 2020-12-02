@@ -34,7 +34,6 @@
     flex-flow: row nowrap;
     justify-content: space-between;
     align-items: flex-end;
-    padding-top: 5px;
     margin-bottom: 10px;
     border-bottom: 20px solid black;
 }
@@ -44,24 +43,62 @@
 }
 
 #nav_logo {
-    width: 40px;
+    height: 10em;
 }
 
 #nav_soap {
-    height: 100px;
+    width:300px;
 }
 
 #gram_link{
     width: 30px;
 }
 
+img.slider {
+    width: 300px;
+}
+
+.gradient-border {
+    --border-width: 3px;
+    position: relative;
+    font-family: Lato, sans-serif;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    color: white;
+    background: #222;
+    border-radius: var(--border-width);
+  }
+  .gradient-border::after {
+    position: absolute;
+    content: "";
+    top: calc(-1 * var(--border-width));
+    left: calc(-1 * var(--border-width));
+    z-index: -1;
+    width: calc(100% + var(--border-width) * 2);
+    height: calc(100% + var(--border-width) * 2);
+    background: linear-gradient(60deg, #5f86f2, #a65ff2, #f25fd0, #f25f61, #f2cb5f, #abf25f, #5ff281, #5ff2f0);
+    background-size: 300% 300%;
+    background-position: 0 50%;
+    border-radius: calc(2 * var(--border-width));
+    animation: moveGradient 4s alternate infinite;
+  }
+  
+  @keyframes moveGradient {
+    50% {
+      background-position: 100% 50%;
+    }
+  }
+
+
 .product-container {
     text-align: center;
     font-family: "Amatic SC", cursive;
     font-size: 1.3em;
     font-weight: 700;
-    width: 225px;
-    margin-bottom: 20px;;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 220px;
+    margin: 0px 3px 15px 0px;
 }
 
 img.too-big {
@@ -90,4 +127,10 @@ li a {
 
 button{
 text-anchor:inset 0 -0.6em 0 -0.35em rgba(0,0,0,0.17);
+}
+
+h1 {
+    font-family: 'Sigmar One', cursive;
+    font-weight: bold;
+    font-size: 10em;
 }

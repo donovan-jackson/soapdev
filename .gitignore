@@ -1,0 +1,13 @@
+node_modules
+assets
+.env
+src
+app.js
+bin/
+package-lock.json
+package.json
+public/
+routes/
+server.js
+views/
+webpack.config.js

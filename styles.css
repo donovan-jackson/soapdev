@@ -13,9 +13,9 @@
 #main-menu {
     text-align: right;
     display: flex;
-    height: 200px;
+    height: 150px;
     flex-flow: column wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: flex-end;
 }
 
@@ -51,6 +51,10 @@
     height: 100px;
 }
 
+#gram_link{
+    width: 30px;
+}
+
 .product-container {
     text-align: center;
     font-family: "Amatic SC", cursive;
@@ -78,6 +82,10 @@ img.too-big {
 
 li {
     list-style-type: none;
+}
+
+li a {
+    font-size: 1.5em;
 }
 
 button{

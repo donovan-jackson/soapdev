@@ -10,7 +10,7 @@
         <link rel="stylesheet" href="https://cdn.snipcart.com/themes/v3.0.26/default/snipcart.css" />
         <script href="appp.js"></script>
     </head>
-
+ 
     <body>
         <div id="body-content-container">
             <div id="navigation-menu">
@@ -18,11 +18,15 @@
                     <img src="assets/logo.png" alt="Logo" id="nav_logo">
                 </a>
                 <h1>SOAP DEV</h1>
-                <a href="#">
-                    <svg width="3em" height="3em" viewBox="0 0 16 16" class="bi bi-bag text-dark" fill="currentColor" xmlns="http://www.w3.org/2000/svg" style="padding-bottom: 7px;">
-                        <path fill-rule="evenodd" d="M8 1a2.5 2.5 0 0 0-2.5 2.5V4h5v-.5A2.5 2.5 0 0 0 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5v9a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V5H2z"/>
-                      </svg>
-                </a>
+                <div id="cart">
+                    <span class="snipcart-items-count"></span> | <span class="snipcart-total-price"></span>
+                    <a href="#">
+                        <svg width="3em" height="3em" viewBox="0 0 16 16" class="bi bi-bag text-dark" fill="currentColor" xmlns="http://www.w3.org/2000/svg" style="padding-bottom: 7px;">
+                            <path fill-rule="evenodd" d="M8 1a2.5 2.5 0 0 0-2.5 2.5V4h5v-.5A2.5 2.5 0 0 0 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5v9a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V5H2z"/>
+                          </svg>
+                    </a>
+                </div>
+
             </div>
 
             <div id="store-product-wrapper">
@@ -116,7 +120,7 @@
                     <p>$15.00</p>
                     
                     <button class="snipcart-add-item btn btn-dark"   
-                    data-item-id="patchouli-raspberr-bar"
+                    data-item-id="patchouli-raspberry-bar"
                     data-item-price="15.00"
                     data-item-url="/store.html"
                     data-item-description="High-quality soap bar."
@@ -165,6 +169,6 @@
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
         <script async src="https://cdn.snipcart.com/themes/v3.0.26/default/snipcart.js"></script>
-        <div hidden id="snipcart" data-api-key="OWQwZTAzMDUtMjczNS00YjkwLTk1YTEtOTg3NjU4MjI5NzdmNjM3NDIwOTE1NjI4MTExNTkz"></div>
+        <div hidden id="snipcart" data-api-key="OWQwZTAzMDUtMjczNS00YjkwLTk1YTEtOTg3NjU4MjI5NzdmNjM3NDIwOTE1NjI4MTExNTkz" data-config-modal-style="side"></div>
    </body>
 </html>

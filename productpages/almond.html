@@ -1,4 +1,4 @@
-<html>
+<html> 
     <head>
         <title>Soap Dev</title>
         <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -9,13 +9,57 @@
         <link rel="preconnect" href="https://cdn.snipcart.com">
         <link rel="stylesheet" href="https://cdn.snipcart.com/themes/v3.0.26/default/snipcart.css" />
     </head>
+    <body>
+    <div id="body-content-container">
+        <div id="navigation-menu">
+            <a href="../index.html">
+                <img src="../assets/logo.png" alt="Logo" id="nav_logo">
+            </a>
+            <h1>SOAP DEV</h1>
+            <div id="cart">
+                <span class="snipcart-items-count"></span> | <span class="snipcart-total-price"></span>
+                <a href="#">
+                    <svg width="3em" height="3em" viewBox="0 0 16 16" class="bi bi-bag text-dark" fill="currentColor" xmlns="http://www.w3.org/2000/svg" style="padding-bottom: 7px;">
+                        <path fill-rule="evenodd" d="M8 1a2.5 2.5 0 0 0-2.5 2.5V4h5v-.5A2.5 2.5 0 0 0 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5v9a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V5H2z"/>
+                      </svg>
+                </a>
+            </div>
 
-    <div id="img_slider_container">
-        <img src="../assets/soappictures/Almond 00.JPG" class="slider" alt="...">
-        <img src="../assets/soappictures/Almond 02.JPG" class="slider" alt="...">
-    </div>
+        </div>
+        <div id="product-page-nav-links">
+            <a href="../store.html" id="back_button">
+                <svg width="4em" height="4em" viewBox="0 0 16 16" class="bi bi-arrow-left-circle-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-4.5.5a.5.5 0 0 0 0-1H5.707l2.147-2.146a.5.5 0 1 0-.708-.708l-3 3a.5.5 0 0 0 0 .708l3 3a.5.5 0 0 0 .708-.708L5.707 8.5H11.5z"/>
+                </svg>
+            </a>
+        </div>
 
 
+ 
+        <div id="store-product-wrapper-product-page">
+            <div class="product-container-product-page gradient-border">
+                <img src="../assets/almond.png" alt="" class="product-page-img">
+            </div>
+
+            <div id="item_description">
+                <h3>Almond Scented Soap Bar</h3>
+                <ul>
+                    <li>Almond Oil Scented</li>
+                    <li>Made with King Tut Gold and Black Oyster micas.</li>
+                </ul>
+            </div>
+            <div id="price_cart">
+                <p>$15.00</p>
+                <button class="snipcart-add-item btn btn-dark"   
+                data-item-id="almond-bar"
+                data-item-price="15.00"
+                data-item-url="/productpages/almond.html"
+                data-item-description="High-quality soap bar."
+                data-item-image="../assets/almond.png"
+                data-item-name="Almond Scented Soap Bar">Add to Cart</button>
+            </div>
+       </div>
+</div>
 
 
 
